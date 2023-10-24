@@ -1,0 +1,30 @@
+.modal {
+  @apply w-[400px] p-8 rounded-2xl bg-white;
+}
+
+.modal h3 {
+  @apply text-base font-normal text-[#626264] leading-6 mb-6;
+}
+
+.modal ul {
+  @apply grid gap-6;
+}
+
+.modal li > div {
+  @apply flex gap-x-5;
+}
+
+.inviteButton {
+  @apply w-full flex gap-4 items-center justify-start;
+  @apply text-[#503E9D] font-bold text-base cursor-pointer;
+  @apply transition-opacity mb-8;
+}
+
+.inviteButton div {
+  @apply min-w-[48px] min-h-[48px] rounded-[10px] bg-[#EDECF5];
+  @apply flex items-center justify-center text-lg;
+}
+
+.inviteButton:hover {
+  @apply opacity-70;
+}

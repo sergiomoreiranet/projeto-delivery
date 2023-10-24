@@ -1,0 +1,21 @@
+.discounts {
+  @apply grid gap-6;
+}
+
+.discounts div {
+  @apply flex items-center justify-center flex-col;
+  @apply bg-[#F7F7F7] border-[#A3A3A4] border border-dashed;
+  @apply min-h-[116px] rounded-[10px];
+}
+
+.discounts p {
+  @apply text-[11px];
+}
+
+.discounts li.purple h3 {
+  @apply text-[#503E9D];
+}
+
+.discounts li.orange h3 {
+  @apply text-[#FB6D3A];
+}

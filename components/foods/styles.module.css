@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.header h2 {
+  flex-grow: 1;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.header div {
+  display: flex;
+  align-items: center;
+  background-color: #f7f7f7;
+  color: "#182135";
+  font-size: 0.75rem;
+  line-height: 1rem;
+  padding: 5px 10px;
+}
+
+.container {
+  @apply justify-between grid grid-cols-1 md:grid-cols-3;
+  @apply w-full gap-y-6 gap-6;
+}

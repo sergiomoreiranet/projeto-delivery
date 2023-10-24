@@ -1,0 +1,28 @@
+.thumb {
+  @apply w-full h-48 relative mb-4 overflow-hidden rounded-2xl;
+}
+
+.header {
+  display: flex;
+}
+
+.header h3 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  flex: 1;
+}
+
+.header span {
+  font-size: 0.6875rem;
+  line-height: 1rem;
+  font-weight: 600;
+  color: #503e9d;
+  background-color: #edecf5;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.item {
+  @apply w-full;
+}

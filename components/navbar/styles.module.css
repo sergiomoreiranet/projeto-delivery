@@ -1,0 +1,57 @@
+.navbar {
+  display: flex;
+  margin-bottom: 3rem;
+  justify-content: space-between;
+}
+
+.navbar .nav,
+.navbar .navButtons {
+  gap: 1rem;
+}
+
+.navbar .nav {
+  @apply hidden lg:flex;
+}
+
+.navbar .navButtons {
+  @apply flex;
+}
+
+.navbar li {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+}
+
+.nav a {
+  display: flex;
+  align-items: center;
+}
+
+.nav svg:first-child {
+  margin-right: 1rem;
+}
+
+.nav svg:last-child {
+  margin-left: 1rem;
+}
+
+.filterButton,
+.cartButton {
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filterButton {
+  background-color: #503e9d;
+}
+
+.cartButton {
+  background-color: #fb6d3a;
+}

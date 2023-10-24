@@ -1,0 +1,13 @@
+.primary,
+.secondary {
+  @apply text-xl leading-8 h-16 w-full font-bold;
+  @apply hover:opacity-80 rounded-xl;
+}
+
+.primary {
+  @apply bg-[#503E9D] text-white;
+}
+
+.secondary {
+  @apply bg-[#FACD5D] text-black;
+}

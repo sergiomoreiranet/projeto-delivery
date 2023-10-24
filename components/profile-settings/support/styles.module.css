@@ -1,0 +1,45 @@
+.modal {
+  @apply w-[400px] p-8 rounded-2xl bg-white;
+}
+
+.modal ul {
+  @apply grid gap-6;
+}
+
+.modal li > div,
+.modal li > button {
+  @apply flex gap-4;
+  @apply items-center w-full;
+  @apply transition-opacity;
+}
+
+.modal li > div div:first-child,
+.modal li > button div:first-child {
+  @apply min-w-[48px] min-h-[48px] flex items-center justify-center;
+  @apply rounded-[10px];
+}
+
+.modal li > div div:nth-child(2),
+.modal li > button div:nth-child(2) {
+  @apply flex-1 text-left;
+}
+
+.modal li button:hover {
+  @apply opacity-70;
+}
+
+.modal li h3 {
+  @apply text-[11px] leading-4 tracking-[1px];
+}
+
+.purple {
+  background-color: rgb(80, 62, 157, 0.1);
+}
+
+.orange {
+  background-color: rgb(251, 109, 58, 0.1);
+}
+
+.yellow {
+  background-color: rgb(250, 205, 93, 0.1);
+}

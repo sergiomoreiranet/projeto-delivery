@@ -1,0 +1,74 @@
+.sidebar {
+  max-height: 1024px;
+  background-color: #f7f7f7;
+  max-width: 112px;
+
+  @apply w-full flex flex-col rounded-3xl;
+}
+
+@media screen(lg) {
+  .sidebar {
+    width: 100%;
+    max-width: 304px;
+  }
+}
+
+.header {
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 32px;
+  padding-bottom: 48px;
+  display: flex;
+  align-items: center;
+}
+
+.header h3 {
+  color: #000000;
+  padding-left: 15px;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  color: #000;
+  @apply hidden lg:block;
+}
+
+.footer {
+  padding: 32px;
+}
+
+.menu {
+  flex-grow: 1;
+  padding: 0 28px;
+}
+
+.menu li {
+  height: 56px;
+  border-radius: 12px;
+}
+
+.menu a {
+  display: flex;
+  padding: 16px;
+  @apply font-bold text-base;
+}
+
+.menu svg {
+  @apply lg:mr-6;
+}
+
+.menu span {
+  @apply hidden lg:block;
+}
+
+.menu li:hover {
+  background-color: #503e9d;
+}
+
+.active {
+  background-color: #503e9d;
+}
+
+.active a,
+.menu li:hover a {
+  color: #fff;
+}

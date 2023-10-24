@@ -1,0 +1,40 @@
+.userProfile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.userData {
+  display: none;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 15px;
+}
+
+.userData h3 {
+  line-height: 1.5rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.userData p {
+  line-height: 1rem;
+  font-size: 0.75rem;
+  color: #626264;
+  margin-bottom: 0;
+}
+
+.button {
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen(lg) {
+  .button,
+  .userData {
+    @apply flex;
+  }
+}
